@@ -6,7 +6,7 @@ import numpy as np
 import tensorflow as tf
 import tensorflow.keras.backend as K
 
-from distance import compute_surface_distances, compute_robust_hausdorff
+from DISTANCE_MATRIX import compute_surface_distances, compute_robust_hausdorff
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 devises = tf.config.experimental.list_physical_devices('GPU')
